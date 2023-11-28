@@ -1,0 +1,122 @@
+.whyus_deco {
+  width: 100%;
+  height: 72px;
+  border-radius: 45px;
+  background: linear-gradient(
+    180deg,
+    rgba(138, 86, 233, 0.6) 0%,
+    rgba(138, 86, 233, 0.2) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  margin-bottom: 67px;
+}
+.whyus {
+  width: 100%;
+}
+
+.whyus_content_wrapper {
+  width: 100%;
+  padding: 50px 150px 120px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.whyus_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 5px 6px 0px 0px #8a56e9;
+  backdrop-filter: blur(25px);
+  max-width: 395px;
+  height: 385px;
+}
+.whyus_item_content_wrapper {
+  padding: 40px 20px 50px 35px;
+}
+.whyus_item_content_image {
+  width: 55px;
+  height: 55px;
+  margin-bottom: 30px;
+}
+.whyus_item_content_title {
+  color: #fff;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 150%;
+  margin-bottom: 12px;
+}
+
+.whyus_item_content_text {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+}
+.desk_none {
+  display: none;
+}
+@media (max-width: 1540px) {
+  .whyus_content_wrapper {
+    padding: 50px 100px 120px 100px;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 1420px) {
+  .whyus_content_wrapper {
+    padding: 50px 50px 120px 50px;
+  }
+}
+@media (max-width: 1350px) {
+  .whyus_item {
+    max-width: 310px;
+    height: 450px;
+  }
+  .whyus_content_wrapper {
+    padding: 50px 20px 120px 20px;
+  }
+}
+@media (max-width: 1000px) {
+  .whyus_item {
+    max-width: 100%;
+    height: auto;
+  }
+  .whyus_content_wrapper {
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+  .mob_none {
+    display: none;
+  }
+  .desk_none {
+    display: block;
+  }
+  .whyus_item_content_image {
+    margin-bottom: 16px;
+  }
+  .whyus_item {
+    margin-bottom: 35px;
+    border-radius: 9px;
+  }
+  .whyus_item_content_text {
+    font-size: 15px;
+  }
+  .whyus_item_content_title {
+    font-size: 18px;
+  }
+  h2 {
+    width: 244px;
+    font-size: 20px;
+    margin: 0 auto;
+    font-weight: 500;
+  }
+  .whyus_deco {
+    margin-bottom: 15px;
+  }
+  .whyus_item_content_wrapper {
+    padding: 20px 20px 20px 30px;
+  }
+}
