@@ -22,6 +22,7 @@
   justify-content: space-around;
 }
 .whyus_item {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -58,6 +59,16 @@
 }
 .desk_none {
   display: none;
+}
+.arrow-link-link {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  transition: all 0.3s;
+}
+.arrow-link-link:hover {
+  opacity: 0.6;
+  transition: all 0.3s;
 }
 @media (max-width: 1540px) {
   .whyus_content_wrapper {
@@ -118,5 +129,8 @@
   }
   .whyus_item_content_wrapper {
     padding: 20px 20px 20px 30px;
+  }
+  .arrow-link-link {
+    display: none;
   }
 }
