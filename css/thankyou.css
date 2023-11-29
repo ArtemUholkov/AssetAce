@@ -1,0 +1,23 @@
+.main_picture {
+  height: 100%;
+  width: 100%;
+}
+.main_content_wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.thankyou_thankyou {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+@media (max-width: 750px) {
+  .main_picture {
+    height: 100%;
+  }
+}
